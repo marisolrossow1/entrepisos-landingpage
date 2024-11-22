@@ -46,9 +46,9 @@ const Benefits = () => {
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
-    <Container sx={{ marginTop: "10rem", marginBottom: "5rem" }}>
+    <Container id="beneficios">
             {/* Títulos */}
-            <Grid2 container columnSpacing={{ xs: 1, sm: 2, md: 5, lg: 30 }} marginBottom={{ xs: '1.5rem' }}>
+            <Grid2 container columnSpacing={{ xs: 1, sm: 2, md: 5, lg: 30 }} marginBottom={{ xs: '1.5rem' }} sx={{ paddingTop: "5rem" }}>
                 <Grid2 size={{ xs: 12, md: 6 }}>
                     <Typography
                         variant="h1"
